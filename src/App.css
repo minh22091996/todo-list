@@ -1,38 +1,53 @@
-.App {
+.container{
+  text-align:center ;
+  margin-top: 20px;
+}
+.post{
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: rgb(41, 216, 90);
+}
+.post:hover{
+  opacity: 0.7;
+}
+.delete{
+  border-radius: 5px;
+  background-color: rgb(243, 68, 68);
+}
+.delete:hover{
+  opacity: 0.7;
+}
+.table{
+  height: 80px;
+  width: 500px;
+  border: solid 1px black;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tr{
+  border: solid 1px black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.th{
+  border: solid 1px black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.td{
+  border: solid 1px black;
 }
-
-.App-link {
-  color: #61dafb;
+.return{
+  margin-top: 20px;
+  margin-left: 500px;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit{
+  background-color: rgb(244, 255, 88);
+  border-radius: 5px;
+}
+.edit:hover{
+  opacity: 0.7;
+}
+.finish{
+  background-color: rgb(93, 241, 101);
+  border-radius: 5px;
+}
+.finish:hover{
+  opacity: 0.7;
 }
